@@ -1,0 +1,277 @@
+QUS N.1
+
+#include <stdio.h>
+
+int main()
+{
+    int a=23;
+    int b=123456;
+    float c=3.456;
+    printf("value of a:%d\n",a);
+    printf("value of b:%d\n",b);
+    printf("value of c:%f",c);
+    
+    return 0;
+}
+
+……………………………………..
+
+QUS N.2
+
+#include <stdio.h>
+
+int main()
+{
+ char a='t';
+ char b='w';
+ char c='u';
+ char d='h';
+ char e='d';
+ printf("%c\n",a);
+ printf("%c\n",b);
+ printf("%c\n",c);
+ printf("%c\n",d);
+ printf("%c\n",e);
+ 
+
+    return 0;
+}
+
+…………………….
+
+QUS N.3
+
+#include <stdio.h>
+
+int main()
+{
+ int a=12;
+ int b=78;
+ int r;
+ r=a+b;
+ printf("enter tha addition a and b is:%d",r);
+    return 0;
+}
+
+…………………………………………………….
+
+QUS N.4
+
+#include <stdio.h>
+
+int main()
+{
+ int a=567;
+ int b=34;
+ int r;
+ r=a-b;
+ printf("enter tha substraction a and b is:%d",r);
+    return 0;
+}
+
+
+………………………………………………………………………
+
+QUS N.5
+
+#include <stdio.h>
+
+int main()
+{
+ int a=22;
+ int b=2;
+ int r;
+ r=a/b;
+ printf("enter tha division a and b is:%d",r);
+    return 0;
+}
+
+…………………………………………………………………………………
+
+QUS N.6
+
+#include <stdio.h>
+
+int main()
+{
+ int a=23;
+ int b=124;
+ int r;
+ r=a*b;
+ printf("enter tha multipal a and b is:%d",r);
+    return 0;
+}
+
+……………………………………………………………………..
+
+QUS N.7
+
+#include <stdio.h>
+
+int main()
+{
+ int a=23;
+ int b=56;
+ int c=8;
+ int d=12;
+ int r;
+ r=a+b+c+d;
+ printf("enter addction a,b,c,d is:%d",r);
+    return 0;
+}
+
+……………………………………………………………………………..
+
+QUS N.8
+
+#include <stdio.h>
+int main()
+{
+ int a=67;
+ int b=12;
+ int c=3;
+ int d=7;
+ int r;
+ r=a-b*c+d;
+ printf("enter tha value of a-b*c+d:%d",r);
+    return 0;
+}
+
+…………………………………………………………………………..
+
+QUS N.9
+
+#include <stdio.h>
+int main()
+{
+ float a=1.2;
+ float b=5.6;
+ int c=8;
+ int d=2;
+ float r;
+ r=a+b*c-d;
+ printf("enter tha value of a+b*c-d:%f",r);
+    return 0;
+}
+…………………………………………………………………………….
+
+QUS N.10
+
+#include <stdio.h>
+int main()
+{
+ int a=12;
+ int b=56;
+ int c=32;
+ int d=78;
+ int e=2;
+ int r;
+ r=a+b*c-d/e;
+ printf("enter tha value of a+b*c-d/e by:%d",r);
+    return 0;
+}
+
+…………………………………………………………………………
+
+QUS N.11
+
+// AREA OF square
+#include <stdio.h>
+
+int main()
+{
+int area,side;
+printf("enter side of square\n");
+scanf("%d",&side);
+area=side*side;
+printf("area of square=%d",area);
+
+    return 0;
+    
+
+…………………………………………………………………….
+
+QUS N.12
+
+//AREA OF TRINGLE
+
+#include <stdio.h>
+
+int main()
+{
+    int base,height;
+    float area;
+    printf("enter a base of triangle:\n");
+    scanf("%d",&base);
+    printf("enter a height of triangle:");
+    scanf("%d",&height);
+    area=(base*height)/2;
+    printf("entar area of triangle:%f",area);
+    return 0;
+}
+
+……………………………………………………………
+
+QUS N.13
+
+// AREA OF RECTANGLE
+
+#include <stdio.h>
+
+int main()
+{
+    int lenghth,width;
+    int area;
+    printf("enter tha lenghth a rectangle:");
+    scanf("%d",&lenghth);
+    printf("enter tha width a rectangle:");
+    scanf("%d",&width);
+    area=lenghth*width;
+    printf("area of a rectangle:%d",area);
+    return 0;
+}
+
+
+………………………………………………………………..
+
+QUS N.14
+
+//AREA OG CIRCLE
+
+#include <stdio.h>
+
+int main()
+{
+    float pi=3.14;
+    int r=4;
+    float area;
+    area=pi*r*r;
+    printf("%f",area);
+    return 0;
+}
+
+……………………………………………………….
+
+QUS N.15
+
+#include <stdio.h>
+
+int main()
+{
+    int l,b,h;
+    int v;
+    
+    printf("enter tha value of l=:");
+    scanf("%d",&l);
+    printf("enter tha value of b=:");
+    scanf("%d",&b);
+    printf("enter tha value of h=:");
+    scanf("%d",&h);
+    v=l*b*h;
+    printf("vloume of cube=%d",v);
+    return 0;
+}
+
+
+
+
